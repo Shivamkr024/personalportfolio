@@ -145,7 +145,7 @@ projectCards.forEach(card => {
       viewCodeBtn.href = "https://github.com/Shivamkr024/simon-says-game";
       viewLiveBtn.href = "https://simonsays-memory-game.netlify.app/";
     } else if (title === "Portfolio Website") {
-      viewCodeBtn.href = "https://github.com/your-username/portfolio";
+      viewCodeBtn.href = "https://github.com/Shivamkr024/personalportfolio";
       viewLiveBtn.href = "#";
     } else if (title === "Carnatic Ragas Identification") {
       viewCodeBtn.href = "https://github.com/Shivamkr024/CARNATIC-RAGA-IDENTIFIER";
@@ -166,4 +166,5 @@ modal.addEventListener('click', (e) => {
   if (e.target === modal) {
     modal.classList.remove('active');
   }
+
 });
